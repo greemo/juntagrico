@@ -4,6 +4,7 @@ layout: default
 
 # Was ist juntagrico?
 
+![juntagrico - logo](/assets/images/juntagrico.svg)
 
 Solidarische Landwirtschaft [SoLaWi](link to https://de.wikipedia.org/wiki/Solidarische_Landwirtschaft) findet immer mehr Anklang. Nebst Muskelkraft, Organisation und Gärtnerwissen, braucht der Betrieb einer SoLaWi auch IT-Kenntnisse und eine Online-Plattform, um alles Administrative einfacher gestalten zu können.
 Die Software juntagrico ist aus einer Zürcher SoLaWi (ortoloco.ch link to ortoloco.ch) entstanden und wurde anfangs 2017 in der Weise weiterentwickelt, dass es auch von anderen SoLaWi's einfach übernommen und für die eigenen Zwecke angepasst werden kann.
