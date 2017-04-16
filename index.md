@@ -2,122 +2,45 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](another-page).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+# Was ist juntagrico?
 
 
-### Definition lists can be used with HTML syntax.
+Solidarische Landwirtschaft [SoLaWi](link to https://de.wikipedia.org/wiki/Solidarische_Landwirtschaft) findet immer mehr Anklang. Nebst Muskelkraft, Organisation und Gärtnerwissen, braucht der Betrieb einer SoLaWi auch IT-Kenntnisse und eine Online-Plattform, um alles Administrative einfacher gestalten zu können.
+Die Software juntagrico ist aus einer Zürcher SoLaWi (ortoloco.ch link to ortoloco.ch) entstanden und wurde anfangs 2017 in der Weise weiterentwickelt, dass es auch von anderen SoLaWi's einfach übernommen und für die eigenen Zwecke angepasst werden kann.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+Juntagrico ist eine freie Software, verfügbar unter der [MIT-Lizenz](https://en.wikipedia.org/wiki/MIT_License). Trägerin ist der Verein juntagrico mit Sitz in Zürich. Mitglieder sind SoLaWi’s, welche juntagrico verwenden (möchten). Anpassungen und Weiterentwicklungen werden im Verein diskutiert und erarbeitet. 
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+# Basismodule
 
-```
-The final element.
-```
+## Mitgliederverwaltung 
+Alle Mitglieder der Genossenschaft, des Vereins oder welche Form die Gruppierung auch immer hat, können hier verwaltet, neu erstellt, Daten gepflegt oder gelöscht werden. Mitglieder können nach verschiedenen Kriterien gefiltert und kontaktiert (z.B. für den Newsletter) werden.
+
+## Aboverwaltung
+Einzelnen Mitgliedern oder auch kleine Gruppen können Abos zugeteilt werden. Verschiedene Abogrössen, -arten (zusätzliche Eier, Obst, etc.) und Laufzeiten (Halbjahres-Abo, Eintritt, Austritt, ...) werden dabei unterstützt.
+
+## Depotverwaltung
+Bei juntagrico-SoLaWi's werden Standardmässig die Gemüsetaschen in Depots verteilt. In diesen Depots holen dann die Mitglieder ihre Tasche wöchentlich/zweiwöchentlich oder monatlich ab. Depots haben nebst einem genauen Standort auch eine kleine Beschreibung, wie das Mitglied an die Gemüsebox gelangt.
+
+## Einsatzplanung
+Viele Einsätze fallen täglich auf dem Gemüseacker an. juntagrico koordiniert dabei, wer, wann und wie oft mithilft. Dabei behält es ein Auge drauf, dass einfach auf offene Einsätze hingewiesen werden kann und Mitglieder mit zu wenigen Einsätzen noch angestupst werden können.
+
+# Optionale Module
+
+## Warteliste
+Oft sind alle Abos des feinen Gemüses vergriffen, daher bietet juntagrico eine Warteliste für alle, die sofort einspringen möchten, wenn wieder ein Platz frei wird.
+
+## Anteilsscheine
+Genossenschaften basieren auf Eigenkapital durch Anteilsscheine, welcher jedes Mitglied haben sollte. Diese können mit juntagrico einfach verwaltet werden.
+
+## Statische Webseite
+Jede SoLaWi hat in der Regel auch selber eine kleine aber feine Webseite. juntagrico bietet dir den leichtest möglichen Einstieg dazu. Als ob du in deinem Word-Dokument einen Text erstellen würdest, kannst du dank eines WYSIWYG-Editors eine Webseite erstellen.
+
+# Verschiedenes
+
+Du bist immer noch interessiert? Schau dir unsere Demo an:
+[https://juntagrico-demo.herokuapp.com/](https://juntagrico-demo.herokuapp.com/)
+
+# Wer benutzt juntagrico?
+* [http://www.ortoloco.ch](http://www.ortoloco.ch)
+* [http://www.mehalsgmues.ch](http://www.mehalsgmues.ch)
+* [http://www.bioco.ch](http://www.bioco.ch)

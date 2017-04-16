@@ -1,5 +1,10 @@
 title: juntagrico
-description: empowering SoLaWi with IT
+description: Wir bringen die digitale Transformation auf den Gemüseacker
 show_downloads: true
 google_analytics:
 theme: 
+github:
+  zip_url: https://github.com/juntagrico/juntagrico/archive/master.zip
+  tar_url: https://juntagrico-demo.herokuapp.com/
+  is_project_page: true
+  repository_url: https://github.com/juntagrico/juntagrico
