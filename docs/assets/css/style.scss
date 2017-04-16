@@ -1,0 +1,16 @@
+---
+---
+
+@import 'jekyll-theme-merlot';
+
+header span.ribbon-inner {
+	background-color: lighten(#4c9434, 20%);
+	border-color: #4c9434;
+}
+
+header {
+	h1, h2 {
+		background-color: #4c9434;	
+		color: #ece4d8;
+	}
+}
