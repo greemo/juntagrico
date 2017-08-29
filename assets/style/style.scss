@@ -2,3 +2,44 @@
 ---
 
 @import "{{ site.theme }}";
+
+.juntagrico_logo {
+    background: url(/assets/img/juntagrico.png) 0 0px;
+    display: inline-block;
+    width: 580px;
+    height: 161px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+	margin-bottom: 40px;
+	color: #66cc66;
+    font-size: 30pt;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('/assets/fonts/SourceSansPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('/assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html, body {
+    font-family: "Source Sans Pro Light";
+    font-size: 18px;
+    background-color: #fefffa;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro Regular";
+}
+
