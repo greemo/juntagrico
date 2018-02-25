@@ -75,6 +75,12 @@ class Config:
         return 'info@juntagrico.juntagrico'
 
     @staticmethod
+    def garden_email():
+        if hasattr(settings, 'GARDEN_EMAIL'):
+            return settings.GARDEN_EMAIL
+        return ''
+
+    @staticmethod
     def server_url():
         if hasattr(settings, 'SERVER_URL'):
             return settings.SERVER_URL

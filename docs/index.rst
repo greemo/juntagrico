@@ -191,7 +191,7 @@ You can use the following settings to configure juntagrico
 
 * INFO_EMAIL
 
-  The general email of your organistation
+  The general administrative email of your organisation
   
   Type: String
 
@@ -200,6 +200,19 @@ You can use the following settings to configure juntagrico
   .. code-block:: python
 
     "info@juntagrico.juntagrico"
+
+* GARDEN_EMAIL
+
+  The email of the garden organisation team of your organisation.
+  If not set, the INFO_EMAIL will be used by default.
+
+  Type: String
+
+  default value
+
+  .. code-block:: python
+
+    "INFO_EMAIL"
 
 * SERVER_URL
 
@@ -581,6 +594,7 @@ For your convenience all settings with default values to copy into your settings
                                 'NAME' : 'Juntagrico Bank', 
                                 'ESR' : '01-123-45'}
     INFO_EMAIL = 'info@juntagrico.juntagrico'
+    GARDEN_EMAIL = 'garten@juntagrico.juntagrico'
     SERVER_URL = 'www.juntagrico.juntagrico'
     ADMINPORTAL_NAME = 'my.juntagrico'
     ADMINPORTAL_SERVER_URL = 'my.juntagrico.juntagrico'
@@ -647,9 +661,9 @@ Release Notes
  No migrations
 
 * Fixed Typo in Billable
-* Empty strings as defaut for settings containing an url t a document
-* Empty url confogs prevent link from bein displayed in templates
-* fix for witing list and paid shares
-* empty strings in profile iban field form are not validated anymore
+* Empty strings as default for settings containing a url to a document
+* Empty url configs prevent link from being displayed in templates
+* fix for waiting list and paid shares
+* empty strings in profile IBAN field form are not validated anymore
 * doc updated
 * error in onetime job fixed

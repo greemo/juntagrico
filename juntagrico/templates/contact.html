@@ -6,6 +6,7 @@
 
 {% block content %}
     {% config "organisation_address" as organisation_address%}
+    {% config "garden_email" as garden_email%}
 	{% if is_sent %}
         <div class="alert alert-success">Nachricht gesandt></div>
 	{% else %}
@@ -20,8 +21,13 @@
         </div>
         <div class="form-group">
             <label class="control-label col-md-3">Empfänger</label>
-            <div class="controls col-md-9 form-control-static">
-                {% config "info_email" %}
+            <div class="controls col-md-9">
+                <select name="recipient" class="form-control">
+                    <option value="{% config 'info_email' %}">Betriebsgruppe</option>
+                    {% if garden_email %}
+                        <option value="{{ garden_email }}">Gartenfachkraft betr. Arbeitseinsatz</option>
+                    {% endif %}
+                </select>
             </div>
         </div>
         <div class="form-group">

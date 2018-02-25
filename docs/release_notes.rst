@@ -6,9 +6,9 @@ Release Notes
  No migrations
 
 * Fixed Typo in Billable
-* Empty strings as defaut for settings containing an url t a document
-* Empty url confogs prevent link from bein displayed in templates
-* fix for witing list and paid shares
-* empty strings in profile iban field form are not validated anymore
+* Empty strings as default for settings containing a url to a document
+* Empty url configs prevent link from being displayed in templates
+* fix for waiting list and paid shares
+* empty strings in profile IBAN field form are not validated anymore
 * doc updated
 * error in onetime job fixed
